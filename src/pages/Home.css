@@ -1,0 +1,135 @@
+.fo {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 65px;
+text-align: center;
+
+color: rgb(0, 0, 0);
+}
+
+@media (max-width: 480px) {
+  .fo {
+    font-size: 35px;
+  }
+}
+
+.home-img {
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.home-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  
+}
+
+
+@media (max-width: 480px) {
+  .home-content {
+    gap: 15px;
+    padding: 0 5px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -20px;
+  }
+}
+
+.game-section {
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: transparent;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  min-width: 200px;
+  margin-top: 50px;
+}
+
+
+
+@media (max-width: 480px) {
+  .game-section {
+    padding: 15px;
+    min-width: 100%;
+    width: calc(100% - 20px);
+    margin: 0 10px;
+  }
+}
+
+.game-section:hover {
+  background: rgba(100, 103, 255, 0.1);
+  color: #f63030;
+}
+
+.game-section h2 {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+}
+
+.game-section p {
+  margin: 0;
+  font-size: 20px;
+}
+
+
+@media (max-width: 480px) {
+  .game-section h2 {
+    font-size: 22px;
+  }
+  
+  .game-section p {
+    font-size: 16px;
+  }
+}
+
+.footer {
+  margin-top: -70px !important;
+  padding: 30px 20px;
+  text-align: center;
+  color: black !important;
+}
+
+.footer-text {
+  margin: 5px 0;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@media (max-width: 480px) {
+  .footer {
+    margin-top: 30px;
+    padding: 15px 10px;
+  }
+  
+  .footer-text {
+    font-size: 13px;
+    color: black;
+  }
+}

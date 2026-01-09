@@ -1,0 +1,159 @@
+.po-img {
+    width: 700px; 
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+    .po-img {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .pirinska-title {
+        font-size: 28px !important;
+        margin-top: 20px !important;        
+    }
+    
+    .po-text, .navatre {
+        font-size: 16px !important;
+        margin-left: 15px !important;
+        margin-right: 0px;
+    }
+    
+    .po-zaglavie {
+        font-size: 25px !important;
+        margin-left: 15px;
+    }
+    
+    .nosiq {
+        font-size: 20px !important;
+        margin-left: 25px;
+    }
+    
+    .nosiq-img {
+        width: 200px;
+        max-width: 85%;
+    }
+    .pr-button {
+        font-size: 16px !important;
+        padding: 8px 12px !important;
+        z-index: 10;
+        position: relative;
+    }
+    .pr-img .p-left {
+        width: 140px !important;
+        height: auto !important;
+        left: 0 !important;
+        z-index: 1;
+    }
+    .pr-img .p-right {
+        width: 140px !important;
+        height: auto !important;
+        right: 0 !important;
+        z-index: 1;
+    }
+
+}
+
+.pirinska-container {
+    line-height: 1.6;
+}
+.pirinska-title{
+    margin-bottom: 50px;
+    margin-top: 60px;
+    font-size: 55px;
+    text-align: left;
+    color: rgb(191, 0, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+}
+.po-text {
+    font-size: 25px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navatre {
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    color: black;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.navatre li {
+    margin-bottom: 1px;
+}
+.po-zaglavie {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(191, 0, 255);
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.nosiq-img {
+    display: block;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.nosiq {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.pr-button-container {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    order: 1;
+}
+
+.pr-button {
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px 33px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(2, 97, 54);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.pr-button:hover {
+    background-color: rgb(2, 70, 40);
+    transform: translateY(-2px);
+}
+.pr-img {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	top: 20px;
+}
+
+.pr-img .p-right {
+	width: 190px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.pr-img .p-left {
+	width: 190px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}

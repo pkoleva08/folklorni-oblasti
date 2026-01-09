@@ -1,0 +1,140 @@
+.guess-container {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.guess-title {
+  margin-bottom: 10px;
+  text-align: center;
+    font-size: 45px;
+}
+
+.task {
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.map-and-scoreboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;    
+  flex-wrap: wrap;  
+}
+
+.map-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;      
+  max-width: 650px;
+  flex-shrink: 0;
+}
+.end-img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 50px auto 20px auto;
+}
+
+@media (max-width: 480px) {
+  .map-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .scoreboard {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .map-and-scoreboard-container {
+    gap: 15px;
+    padding: 0 5px;
+  }
+  .guess-title {
+    font-size: 30px !important;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 40px !important;
+  }
+  .task{
+    font-size: 20px !important;
+    margin-top: 35px !important;
+    margin-bottom: 30px;
+  }
+  .scoreboard {
+    font-size: 20px !important;
+    color: black !important;
+    font-style: italic !important;
+  }
+  
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.svg-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.svg-map polygon {
+  fill: rgba(249, 249, 249, 0.2);
+  stroke-width: 2;
+  cursor: pointer;
+  transition: fill 0.3s; 
+}
+
+.svg-map polygon:hover {
+    fill: rgba(237, 186, 2, 0.505); 
+}
+
+.scoreboard {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: left;
+    flex-shrink: 0;
+    margin-top: 0px;
+    width: 290px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+    line-height: 1.6;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.message {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.restart-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.restart-button:hover {
+    background-color: #0056b3;
+}

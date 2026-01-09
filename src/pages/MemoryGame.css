@@ -1,0 +1,307 @@
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    column-gap: 5px;
+    row-gap: 10px;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
+    padding: 0 30px;
+}
+
+@media (max-width: 480px) {
+    .grid-4 {
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2px;
+        row-gap: 5px;
+        padding: 0 15px;
+        margin-left: -20px;
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0px;
+    column-gap: 5px;
+    row-gap: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto 0 auto;
+    padding: 0 30px;
+}
+
+@media (max-width: 480px) {
+    .grid-6 {
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 2px;
+        row-gap: 5px;
+        padding: 0 15px;
+        margin-left: -20px;
+    }
+}
+
+.card {
+    position: relative;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 3px;
+        border-radius: 3px;
+    }
+}
+
+.card img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center top;
+    display: block;
+}
+
+.center-screen {
+    text-align: center;
+    margin-top: 1000px;
+
+}
+
+.big-text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 480px) {
+    .big-text {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}
+.time {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 143, 2);
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .time {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+}
+
+.big-btn {
+    font-size: 30px;
+    padding: 14px 22px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+    .big-btn {
+        font-size: 18px;
+        padding: 8px 12px;
+        margin: 5px;
+    }
+}
+
+.big-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.back-btn {
+    font-size: 30px;
+    padding: 14px 22px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+
+@media (max-width: 480px) {
+    .back-btn {
+        font-size: 18px;
+        padding: 8px 12px;
+        margin: 5px;
+    }
+}
+
+.back-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.level-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.level-title {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+
+@media (max-width: 480px) {
+    .level-title {
+        font-size: 24px;
+    }
+}
+
+.level-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    order: 1;
+}
+
+.level-btn {
+    font-size: 20px;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+}
+
+@media (max-width: 480px) {
+    .level-btn {
+        font-size: 16px;
+        padding: 5px 10px;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+}
+
+.level-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+
+.level-btn.left {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.level-btn.right {
+    text-align: center;
+}
+
+.start-screen,
+.game-over {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.menu-container {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+
+@media (max-width: 480px) {
+    .menu-container {
+        font-size: 30px;
+        margin-top: 40px;
+        font-style: italic;
+        color: black;
+    }
+}
+.nivo {
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 15px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 480px) {
+    .nivo {
+        font-size: 18px;
+        padding: 6px 12px;
+        margin: 8px;
+    }
+}
+
+.nivo:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.menu-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    justify-items: center;
+}
+
+.menu-buttons .nivo:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 400px;
+}
+.memory-game {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    text-align: center;
+}
+.vreme {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(2, 8, 185);
+    text-align: center;
+}
+

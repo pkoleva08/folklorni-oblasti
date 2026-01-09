@@ -1,0 +1,169 @@
+.ro-img {
+    width: 700px; 
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+    .ro-img {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .rodopska-title {
+        font-size: 28px !important;
+        margin-top: 0px !important;
+    }
+    
+    .ro, .ro-posoki {
+        font-size: 16px !important;
+        margin-left: 0px !important;
+        margin-right: 0px;
+    }
+    
+    .ro-tanci {
+        font-size: 25px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+    .nosiq {
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .r-button {
+        font-size: 17px !important;
+        padding: 8px 12px !important;
+        margin-top: -20px !important;
+    }
+    .r-button-container {
+        position: relative;
+        z-index: 10;
+        top: 20px;
+    }
+    .r-left {
+        width: 140px !important;
+        height: auto !important;
+        left: 0 !important;
+        bottom: -5px !important;
+        z-index: 1;
+    }
+    .r-right {
+        width: 140px !important;
+        height: auto !important;
+        right: 0 !important;
+        bottom: -5px !important;
+        z-index: 1;
+    }
+    .nosiq-img {
+        width: 200px !important;
+        max-width: auto !important;
+        margin-left: 0 !important;
+    }
+
+    
+}
+.nosiq-img {
+    display: block;
+    width: 350px;
+}
+.rodopska-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    color: rgb(255, 0, 170);
+}
+.ro-tanci {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  rgb(255, 0, 170);
+    margin-left: 20px;
+}
+.ro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ro-posoki {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.ro-posoki li {
+    margin-bottom: 1px;
+}
+.nosiq {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.r-button-container {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    order: 1;
+}
+
+.r-button {
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px 33px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(2, 97, 54);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+
+}
+
+.r-button:hover {
+    background-color: rgb(2, 70, 40);
+    transform: translateY(-2px);
+}
+.r-images {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    margin-left: -20px;
+    margin-top: 20px;
+    top: 20px;
+}
+.left-corner, .right-corner {
+    position: absolute;
+    bottom: 0;
+    width: 180px;
+    height: auto;
+}
+.left-corner {
+    left: 0;
+}
+.right-corner {
+    right: 0;
+}
+.r-left {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 190px;
+    height: auto;
+}
+.r-right {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 190px;
+    height: auto;
+}

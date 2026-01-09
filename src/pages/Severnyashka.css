@@ -1,0 +1,245 @@
+.sev-title {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(5, 152, 231);
+	font-size: 55px;
+	margin-bottom: 50px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.sev-button-container {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.sev-button {
+	display: inline-block;
+	font-size: 25px;
+	padding: 10px 33px;
+	cursor: pointer;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	color: white;
+	background-color: rgb(2, 97, 54);
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	transition: background 0.3s, transform 0.2s;
+}
+
+.sev-button:hover {
+	background-color: rgb(2, 70, 40);
+	transform: translateY(-2px);
+}
+.sev-img {
+	display: block;
+	margin: 0 auto;
+	width: 700px;
+	height: auto;
+	max-width: 100%;
+}
+
+@media (max-width: 480px) {
+	.sev-title {
+		font-size: 28px;
+		margin-bottom: 20px;
+		color: rgb(5, 152, 231);
+	}
+	
+	.sev-text, .sev-posoki, .sev-grad, .sev-opisanie {
+		font-size: 16px !important;
+		margin-left: 15px;
+		color: black !important;
+	}
+	
+	.sev-hora, .sev-instr {
+		font-size: 16px !important;
+		margin-left: 20px !important;
+		color: black !important;
+	}
+	
+	.sev-tanci, .sev-fn, .sev-izvestni, .sev-hi {
+		font-size: 25px !important;
+		margin-left: 15px;
+		color: rgb(5, 152, 231);
+	}
+	
+	.sev-j-n, .sev-m-n {
+		font-size: 20px !important;
+		color: black;
+		margin-left: 25px !important;
+	}
+	.sev-op {
+		font-size: 16px !important;
+		margin-left: 15px !important;
+		color: black;
+	}
+	
+	.sev-img {
+		width: 100%;
+		padding: 0 10px;
+	}
+	
+	.sn-img {
+		width: 200px !important;
+		max-width: auto !important;
+		margin-left: 0 !important;
+	}
+	
+	.sev-button {
+		font-size: 17px !important;
+		padding: 8px 12px !important;
+		margin-top: -40px !important;
+	}
+	.left{
+		width: 140px !important;
+		height: auto !important;
+		left: 0 !important;
+	}
+	.right{
+		width: 140px !important;
+		height: auto !important;
+		right: 0 !important;
+	}
+	
+	.sev-button-container {
+		position: relative;
+		z-index: 10;
+	}
+	
+	.corner-images {
+		z-index: 1;
+	}
+}
+.sev-text {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.sev-posoki {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: black;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+.sev-posoki li {
+	margin-bottom: 1px;
+}
+.sev-grad {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.sev-tanci {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 35px;
+	color:  rgb(5, 152, 231);
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.sev-opisanie {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+.sev-fn {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:  rgb(5, 152, 231);
+	font-size: 35px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.sev-j-n {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+	margin-left: 100px;
+	color: black;
+}
+.sn-img {
+	display: block;
+	width: 350px;
+	position: relative;
+	left: 0;
+}
+.sev-op {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: black;
+	margin-left: 55px;
+}
+.sev-m-n {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+	margin-left: 100px;
+	margin-top: 35px;
+	color: black;
+}
+.sev-izvestni {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 35px;
+	color:  rgb(5, 152, 231);
+	margin-left: 20px;
+}
+.sev-hora {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: black;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.sev-hi {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 35px;
+	margin-left: 20px;
+	color:  rgb(5, 152, 231);
+}
+.sev-instr {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	margin-left: 40px;
+	color: black;
+	margin-bottom: 90px;
+}
+
+.sev-button {
+	order: 1;
+	
+}
+
+.corner-images {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	top: 20px;
+}
+
+.corner-images .right {
+	width: 190px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.corner-images .left {
+	width: 190px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}

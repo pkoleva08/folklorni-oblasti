@@ -1,0 +1,173 @@
+.do-img {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+    .do-img {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+.dobrojanska-title{
+    margin-bottom: 50px;
+    font-size: 55px;
+    text-align: left;
+    color: rgb(255, 106, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    text-align: center;
+}
+.dob-text {
+    font-size: 25px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navatre {
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navatre li {
+    margin-bottom: 1px;
+}
+.dob-zaglavie {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 106, 0);
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.nosiq-img {
+    display: block;
+    width: 350px;
+}
+.nosiq-t {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.dj-button-container {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.dj-button {
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px 33px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(2, 97, 54);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.dj-button:hover {
+    background-color: rgb(2, 70, 40);
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 480px) {
+    .dobrojanska-title {
+        font-size: 28px;
+        
+    }
+    .nosiq-img {
+        width: 200px !important;
+        max-width: auto;
+    }
+    
+    .dob-text {
+        font-size: 16px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navatre {
+        font-size: 16px !important;
+        margin-left: 0 !important;
+        margin-right: 0;
+    }
+    .dob-zaglavie {
+        font-size: 25px !important;
+        margin-left: 0;
+    }
+    
+    .nosiq-t {
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    
+    .dj-button {
+        font-size: 17px !important;
+        padding: 8px 12px !important;
+        margin-top: -20px !important;
+    }
+    
+    .left-corner {
+        width: 140px !important;
+        height: auto !important;
+        left: 0 !important;
+        bottom: 20px !important;
+    }
+    
+    .right-corner {
+        width: 140px !important;
+        height: auto !important;
+        right: 0 !important;
+        bottom: 20px !important;
+    }
+    
+    .dj-button-container {
+        position: relative;
+        z-index: 10;
+        bottom: 25px;
+    }
+    
+    .dc-img {
+        z-index: 1;
+        top: 10px;
+    }
+}
+
+.dc-img {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    margin-left: -20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: -30px;
+}
+
+.dc-img .right-corner {
+    width: 190px;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+.dc-img .left-corner {
+    width: 190px;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
