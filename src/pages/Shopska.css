@@ -1,8 +1,7 @@
 .zaglavie {
     margin-bottom: 50px;
-    margin-top: 60px;
     font-size: 55px;
-    text-align: left;
+    text-align: center;
     color:  rgb(234, 3, 3);
     font-family: Georgia, 'Times New Roman', Times, serif;    
     text-align: center;
@@ -10,9 +9,10 @@
 .snimka{
     display: block;
     margin: 0 auto;
-    width: 700px;
+    width: 500px;
     height: auto;
     max-width: 100%;
+
 }
 
 @media (max-width: 480px) {

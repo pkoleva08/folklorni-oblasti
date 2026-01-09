@@ -1,5 +1,5 @@
 .ro-img {
-    width: 700px; 
+    width: 500px; 
     height: auto;
     margin: 0 auto;
     display: block;
@@ -10,6 +10,10 @@
     .ro-img {
         width: 100%;
         padding: 0 10px;
+        width: 330px;
+        height: auto;
+        margin-top: -20px;
+
     }
     .rodopska-title {
         font-size: 28px !important;
@@ -72,7 +76,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 55px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 0px;
     margin-bottom: 50px;
     color: rgb(255, 0, 170);
 }

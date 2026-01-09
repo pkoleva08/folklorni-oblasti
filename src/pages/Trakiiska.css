@@ -1,17 +1,17 @@
 .tr-img {
-    width: 450px;
+    width: 550px;
     height: auto;  
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 100%;    
 }
 
 
 
 @media (max-width: 480px) {
     .tr-img {
-        width: 100%;
         padding: 0 10px;
+        width: 450px !important;
     }
 }
 
@@ -31,9 +31,7 @@ position: relative;
     }
 }
 .trakiiska-title{
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 25px;
     font-size: 55px;
     text-align: center;
     color: rgb(4, 101, 56);

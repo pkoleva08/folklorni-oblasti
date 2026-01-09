@@ -1,5 +1,5 @@
 .po-img {
-    width: 700px; 
+    width: 500px; 
     height: auto;
     margin: 20px auto;
     display: block;
@@ -8,8 +8,9 @@
 
 @media (max-width: 480px) {
     .po-img {
-        width: 100%;
-        padding: 0 10px;
+        width: 320px;
+        height: auto;
+        margin-top: -20px;
     }
     .pirinska-title {
         font-size: 28px !important;
@@ -62,7 +63,7 @@
 }
 .pirinska-title{
     margin-bottom: 50px;
-    margin-top: 60px;
+    margin-top: 20px;
     font-size: 55px;
     text-align: left;
     color: rgb(191, 0, 255);

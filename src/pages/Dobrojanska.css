@@ -1,5 +1,5 @@
 .do-img {
-    width: 700px;
+    width: 500px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -10,6 +10,9 @@
     .do-img {
         width: 100%;
         padding: 0 10px;
+        width: 320px;
+        height: auto;
+        margin-top: -20px;
     }
 }
 .dobrojanska-title{
