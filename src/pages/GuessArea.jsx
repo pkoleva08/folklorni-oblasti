@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import "./GuessArea.css";
 import end from "../assets/end.jpg";
-import kartagame from "../assets/kartagame.jpg";
+import kartagame from "../assets/KartaGame.jpg";
 
 export default function GuessArea() {
   const areas = [

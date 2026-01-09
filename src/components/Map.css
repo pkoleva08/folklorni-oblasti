@@ -9,8 +9,8 @@
 .map-image,
 .map-img {
   display: block;
-  margin: 0;
-  width: 100%;
+  margin: 0 auto;
+  width: 690px;
   max-width: 100%;
   height: auto;
 }

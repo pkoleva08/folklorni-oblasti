@@ -1,15 +1,9 @@
-// Crop top horizontal row from src/assets/pp.png to src/assets/decor-row.png
-// Usage:
-// 1) npm install sharp
-// 2) node scripts/crop-decor.js [height]
-
 const sharp = require('sharp');
 const path = require('path');
 
 const src = path.resolve(__dirname, '../src/assets/pp.png');
 const out = path.resolve(__dirname, '../src/assets/decor-row.png');
-const rowHeight = parseInt(process.argv[2], 10) || 48; // default 48px
-
+const rowHeight = parseInt(process.argv[2], 10) || 48; 
 (async () => {
   try {
     const image = sharp(src);
