@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className="home-page">
       <h1 className="fo">Фолклорни области</h1>
+      <p className="hd">Използвай интерактивната карта, за да разгледаш фолклорните области на България.</p>
       <div className="home-content">
         <Map />
         

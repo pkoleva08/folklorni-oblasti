@@ -5,10 +5,21 @@ text-align: center;
 font-style: italic;
 color: rgb(0, 0, 0);
 }
+.hd {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(68, 65, 65);
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
 
 @media (max-width: 480px) {
   .fo {
     font-size: 35px;
+  }
+  .hd {
+    font-size: 15px;
   }
 }
 
